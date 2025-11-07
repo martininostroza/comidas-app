@@ -1,4 +1,3 @@
-// src/components/FoodList.tsx
 import React from "react";
 import { Comida } from "../data/comidas";
 import FoodCard from "./FoodCard";
@@ -18,6 +17,7 @@ const FoodList: React.FC<FoodListProps> = ({ comidas }) => {
 };
 
 export default FoodList;
+
 
 
 

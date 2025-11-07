@@ -1,4 +1,3 @@
-//comidas-app>src>data>comidas.ts
 export type Comida = {
   nombre: string;
   descripcion: string;
@@ -42,5 +41,6 @@ export const comidas: Comida[] = [
     imagen: '/comidas/helado.jpeg'
   }
 ];
+
 
 

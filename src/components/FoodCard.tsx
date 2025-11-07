@@ -1,10 +1,9 @@
-// src/components/FoodCard.tsx
 import React from "react";
-import { Comida } from "../data/comidas"; // Importamos el tipo correcto
+import { Comida } from "../data/comidas";
 import { Link } from "react-router-dom";
 
 interface FoodCardProps {
-  comida: Comida; // Coincide con tu tipo Comida
+  comida: Comida;
 }
 
 const FoodCard: React.FC<FoodCardProps> = ({ comida }) => {
@@ -26,6 +25,8 @@ const FoodCard: React.FC<FoodCardProps> = ({ comida }) => {
 };
 
 export default FoodCard;
+
+
 
 
 

@@ -1,6 +1,5 @@
-//comidas-app>src>pages>Home.tsx
 import React, { useState } from "react";
-import { comidas } from '../data/comidas';
+import { comidas } from "../data/comidas";
 import FoodList from "../components/FoodList";
 
 export const Home: React.FC = () => {
@@ -30,4 +29,5 @@ export const Home: React.FC = () => {
     </div>
   );
 };
+
 

@@ -1,4 +1,3 @@
-//comidas-app>src>pages>VerMas.tsx
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { comidas } from "../data/comidas";
@@ -34,6 +33,7 @@ export const VerMas: React.FC = () => {
     </div>
   );
 };
+
 
 
 
