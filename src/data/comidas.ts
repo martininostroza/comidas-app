@@ -1,4 +1,4 @@
-
+//comidas-app>src>data>comidas.ts
 export type Comida = {
   nombre: string;
   descripcion: string;

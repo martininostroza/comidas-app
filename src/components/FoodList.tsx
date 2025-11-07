@@ -1,6 +1,6 @@
-
+// src/components/FoodList.tsx
 import React from "react";
-import type { Comida } from '../data/comidas';
+import { Comida } from "../data/comidas";
 import FoodCard from "./FoodCard";
 
 interface FoodListProps {
@@ -18,6 +18,7 @@ const FoodList: React.FC<FoodListProps> = ({ comidas }) => {
 };
 
 export default FoodList;
+
 
 
 

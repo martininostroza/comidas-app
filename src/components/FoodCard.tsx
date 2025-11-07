@@ -1,15 +1,15 @@
-
+// src/components/FoodCard.tsx
 import React from "react";
-import type { Comida } from '../data/comidas';
+import { Comida } from "../data/comidas"; // Importamos el tipo correcto
 import { Link } from "react-router-dom";
 
 interface FoodCardProps {
-  comida: Comida;
+  comida: Comida; // Coincide con tu tipo Comida
 }
 
 const FoodCard: React.FC<FoodCardProps> = ({ comida }) => {
   return (
-    <div className="card m-2" style={{ width: "18rem", cursor: "pointer" }}>
+    <div className="card m-2" style={{ width: "18rem" }}>
       <img src={comida.imagen} className="card-img-top" alt={comida.nombre} />
       <div className="card-body">
         <h5 className="card-title">{comida.nombre}</h5>
@@ -26,6 +26,8 @@ const FoodCard: React.FC<FoodCardProps> = ({ comida }) => {
 };
 
 export default FoodCard;
+
+
 
 
 

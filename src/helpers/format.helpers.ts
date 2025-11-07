@@ -1,3 +1,4 @@
+//comidas-app>src>helpers>format.helpers.ts
 //Función llamada capitalize que recibe un texto (string) y devuelve un string
 export const capitalize = (text: string): string => {
   //Reemplaza ciertos caracteres del texto usando una expresión regular

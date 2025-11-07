@@ -1,7 +1,5 @@
-//Definimos una interfaz llamada Comida usando TypeScript
+//comidas-app>src>interfaces>comidas.interfaces.ts
 export interface Comida {
-  name: string;      // Propiedad "name": indica el nombre de la comida (tipo texto)
-  category: string;  // Propiedad "category": indica la categoría o tipo de comida (tipo texto)
-}
-
-
+    name: string;
+    category: string;
+};
