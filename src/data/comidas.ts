@@ -1,17 +1,15 @@
-//Definimos un tipo llamado Comida usando TypeScript
-//Esto sirve para indicar que cada comida debe tener estas propiedades:
+
 export type Comida = {
-  nombre: string;       //El nombre de la comida
-  descripcion: string;  //Una breve descripción de la comida
-  imagen: string;       //La ruta de la imagen que representa la comida
+  nombre: string;
+  descripcion: string;
+  imagen: string;
 };
 
-//Creamos un array de comidas que cumple con el tipo Comida
 export const comidas: Comida[] = [
   {
-    nombre: 'Mote con Huesillo', 
-    descripcion: 'Bebida típica chilena hecha con duraznos y trigo pelado.', 
-    imagen: '/comidas/mote-con-huesillo.jpeg' 
+    nombre: 'Mote con Huesillo',
+    descripcion: 'Bebida típica chilena hecha con duraznos y trigo pelado.',
+    imagen: '/comidas/mote-con-huesillo.jpeg'
   },
   {
     nombre: 'Ensalada Chilena',
@@ -40,7 +38,7 @@ export const comidas: Comida[] = [
   },
   {
     nombre: 'Helado',
-    descripcion: 'frio',
+    descripcion: 'Frío y delicioso postre.',
     imagen: '/comidas/helado.jpeg'
   }
 ];
